@@ -1,0 +1,72 @@
+[
+    {
+        "id": "farmhouse",
+        "name": "The Farmhouse Tap & Grill",
+        "cuisine": "Gastropub",
+        "address": "160 Bank St, Burlington, VT 05401",
+        "location":{
+            "latitude": 44.478528761862194,
+            "longitude": -73.21325550421733
+        },
+        "phoneNumber": "802-859-0888",
+        "hours": "Monday-Friday: 11:30am to 10:00pm",
+        "about": "FARM-TO-TABLE GASTROPUB AND WORLD CLASS BEER BAR IN DOWNTOWN BURLINGTON"
+    },
+
+
+    {
+        "id": "sweetwaters",
+        "name": "Sweetwaters",
+        "cuisine": "American Bistro",
+        "address": "120 Church Street, Burlington, VT 05401",
+        "location": {
+            "latitude": 44.47714738621725,
+            "longitude": -73.21242040200704
+        },
+        "phoneNumber": "802-864-9800",
+        "hours": "Sunday, Monday, and Thursday: 11:30am to 10:00pm, Tuesday to Wednesday: 4:00pm to 10:00pm, Friday to Saturday: 11:30am to 11:00pm",
+        "about": "Sweetwaters is Vermont-owned and has been serving locals and visitors alike for 40 years. As unique as Church Street itself, we offer American Bistro classics made with local ingredients, complemented by our selection of craft beer and cocktails."
+    },
+
+    {
+        "id": "leunigsbistro",
+        "name": "Leunig's Bistro",
+        "cuisine": "French Bistro & Café",
+        "address": "115 Church Street, Burlington, VT 05401",
+        "location": {
+            "latitude":44.47742855147082, 
+            "longitude":-73.21282057317147
+        },
+        "phoneNumber": "802-863-3759",
+        "hours": "Tuesday to Saturday: 11:00am to 8:30pm",
+        "about": "One of the oldest, continually operating restaurants in downtown Burlington, VT. A French bistro & bar, serving lunch and dinner. Offering some of the best people watching and live music in the area; dedicated to great food, great times, and giving back to the community."
+    },
+
+    {
+        "id": "pennycluse",
+        "name": "Penny Cluse",
+        "cuisine": "Breakfast",
+        "address": "169 Cherry Street, Burlington, VT 05402",
+        "location": {
+            "latitude": 44.47942569619375,
+            "longitude":  -73.2113495731714
+        },
+        "phoneNumber": "802-651-8834",
+        "hours": "Thursday to Monday: 8:00am to 3:00pm",
+        "about": "Locally owned breakfast restaurant serving an array of local food inspired by southern dishes. Named after their family dog 'Penny'!"
+    },
+
+    {
+        "id": "honeyroad",
+        "name": "Honey Road",
+        "cuisine": "Eastern Mediterranean Mezze",
+        "address": "156 Church Street, Burlington, VT 05401",
+        "location":{
+            "latitude": 44.47629091038532, 
+            "longitude": -73.21227635967806
+        },
+        "phoneNumber": "802-497-2145",
+        "hours": "Dining Room - Tuesday to Saturday: 5:00pm to 9:00pm. Take Out - Tuesday to Saturday: 4:30pm to 8:00pm",
+        "about": "Sophisticated Mediterranean small plates, cocktails & creative desserts in a comfy tavern setting."
+    }
+]
