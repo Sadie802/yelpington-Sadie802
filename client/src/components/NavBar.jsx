@@ -1,15 +1,17 @@
 import React from 'react'
 import {NavLink} from "react-router-dom"
+import '../App.css'
 
 export default function NavBar () {
+
     return (
-        <div>
-            <NavLink to='/home'> Home </NavLink>
-            <NavLink to='/farmhouse'>Farmhouse</NavLink>
-            <NavLink to='/sweetwaters'>Sweetwaters</NavLink>
-            <NavLink to='/leunigsbistro'>Leunigs</NavLink>
-            <NavLink to='/pennycluse'>Penny Cluse</NavLink>
-            <NavLink to='/honeyroad'>Honey Road</NavLink>
+        <div className='navbar'>
+            <NavLink className='navItem' to='/'> Home </NavLink>
+            <NavLink className='navItem' to='/farmhouse'> Farmhouse </NavLink>
+            <NavLink className='navItem' to='/sweetwaters'> Sweetwaters </NavLink>
+            <NavLink className='navItem' to='/leunigsbistro'> Leunigs </NavLink>
+            <NavLink className='navItem' to='/pennycluse'> Penny Cluse </NavLink>
+            <NavLink className='navItem' to='/honeyroad'> Honey Road </NavLink>
         </div>
     )
 }

@@ -1,13 +1,16 @@
 import React from 'react'
 import NavBar from './NavBar'
 import Map from './Map'
+import '../App.css'
 
-export default function Home () {
+export default function Home (props) {
     return (
-    <div> 
-        <h1>Yelpington</h1>
+    <div>
         <NavBar />
-        < Map center={[44.4782651,-73.2122868]}/>
+        <div className='container'> 
+            <h1 id='homeTitle'>Restaurants of Burlington</h1>
+            < Map center={props.center}/>
+        </div>
     </div>
     )
 }

@@ -1,24 +1,27 @@
 import { MapContainer, TileLayer, Marker, Popup,} from "react-leaflet";
 import React from 'react'
-
+import '../App.css'
 
 function Map(props) {
 
   async function getData() {
     const response = await fetch('http://localhost:5001/');
     const restaurants = await response.json();
-    console.log(restaurants)
+    return restaurants
   }
 getData()
  
 
   return (
-    <div>
+    <div className='mapContainer'>
+
+{/*Creating Map with markers for each restaurant */}
+
        <MapContainer
-        center={props.center}
+        center={[44.4782651,-73.2122868]}
         zoom={16}
         scrollWheelZoom={false}
-        style={{ height: "50vh", width: "50vw" }}
+        style={{ height: "50vh", width: "50vw", margin:'auto'}}
       >
         <TileLayer
           url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
@@ -50,6 +53,7 @@ getData()
           </Popup>
         </Marker>
     </MapContainer>
+    <br></br>
     </div>
   );
 }
