@@ -1,9 +1,22 @@
-import logo from './logo.svg';
+import React from 'react'
+import { Routes, Route} from "react-router-dom";
 import './App.css';
+import Home from './components/Home'
+import Restaurants from './components/Restaurants'
 
 function App() {
+
   return (
-    <h1>Yelpington</h1>
+    <div>
+      <Routes>
+
+        {/* Route for home page */ }
+        <Route path='/' element={<Home />}/>
+
+        {/* Route for restaurant page */}
+        <Route path='/:id' element={<Restaurants />}/>
+      </Routes>
+    </div>
   );
 }
 
