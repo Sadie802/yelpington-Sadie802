@@ -2,15 +2,7 @@ import { MapContainer, TileLayer, Marker, Popup,} from "react-leaflet";
 import React from 'react'
 import '../App.css'
 
-function Map(props) {
-
-  async function getData() {
-    const response = await fetch('http://localhost:5001/');
-    const restaurants = await response.json();
-    return restaurants
-  }
-getData()
- 
+function Map() {
 
   return (
     <div className='mapContainer'>
@@ -18,7 +10,7 @@ getData()
 {/*Creating Map with markers for each restaurant */}
 
        <MapContainer
-        center={[44.4782651,-73.2122868]}
+        center={[44.4782651, -73.2122868]}
         zoom={16}
         scrollWheelZoom={false}
         style={{ height: "50vh", width: "50vw", margin:'auto'}}

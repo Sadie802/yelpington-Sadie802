@@ -9,10 +9,8 @@ function App() {
   return (
     <div>
       <Routes>
-
         {/* Route for home page */ }
         <Route path='/' element={<Home />}/>
-
         {/* Route for restaurant page */}
         <Route path='/:id' element={<Restaurants />}/>
       </Routes>
